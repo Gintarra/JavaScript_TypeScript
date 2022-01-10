@@ -1,0 +1,105 @@
+
+#box {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin: 15px;
+    background-color: grey;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 10px;
+
+}
+
+#box2 {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin: 15px;
+    background-color: grey;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 10px;
+
+}
+
+#box3 {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin: 15px;
+    background-color: grey;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 10px;
+
+}
+
+button {
+    height: 30px;
+    align-self: center;
+}
+
+h1 {
+    align-self: center;
+}
+
+#boxLast {
+    height: 300px;
+    width: 500px;
+    margin: 15px;
+    border: black 3px solid;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+#boxLast2 {
+    height: 80px;
+    width: 480px;
+    margin: 15px;
+    border: black 3px solid;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+
+}
+
+#littleBox {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+#littleBox2 {
+    border: black 3px solid;
+    width: 20%;
+    height: 20px;
+    align-self: center;
+}
+
+#littleBox3 {
+    width: 20%;
+    height: 26px;
+    align-self: center;
+    background-color: green;
+}
+#green {
+    background-color: green;
+    width: 20%;
+}
+
+#red {
+    background-color: red;
+    width: 20%;
+}
+
+#blue {
+    background-color: blue;
+    width: 20%;
+}
+
+h4 {
+    margin: 0;
+    text-align: center;
+}

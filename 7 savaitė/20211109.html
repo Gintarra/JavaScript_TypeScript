@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Counter</title>
+    <link rel="stylesheet" href="20211109.css">
+    <script src="20211109.js" defer></script>
+</head>
+<body>
+<div id="btn" class="d-flex column align-center">
+    <button id="shop">Shop</button>
+    <p id="allPoints"></p>
+    <div class="upg d-none justify-center">2x Click (price 100)</div>
+    <div class="upg d-none justify-center">5x Click (price 500)</div>
+    <div class="upg d-none justify-center">10x Click (price 1000)</div>
+    <div class="upg d-none justify-center">New background (price 300)</div>
+    <div class="upg d-none justify-center">New cookie (price 200)</div>
+    <div class="upg d-none justify-center">Cookie spin (price 400)</div>
+    <div class="upg d-none justify-center">Helper (price 600)</div>
+</div>
+
+<div class="first d-flex column align-center justify-center">
+    <button>Start game!</button>
+</div>
+<div id="box" class="column align-center justify-center d-none">
+    <img id="cook" src="https://www.pngarts.com/files/4/Cookie-PNG-Download-Image.png" alt="cookie">
+    <div>
+        <span>Points: </span>
+        <span id="point">0</span>
+    </div>
+</div>
+
+<div id="last" class="d-flex align-center justify-center">
+    <button>End game...</button>
+</div>
+</body>
+</html>

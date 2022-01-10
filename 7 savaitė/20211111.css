@@ -1,0 +1,11 @@
+.box {
+    background-color: #d9cfcf;
+    border: black solid 2px;
+}
+
+.card {
+    background-color: yellow;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 15px;
+}

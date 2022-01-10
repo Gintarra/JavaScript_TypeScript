@@ -1,0 +1,100 @@
+.container {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bar {
+    width: 100%;
+    height: 50px;
+    padding: 3px;
+}
+
+.grassImg {
+    height: 150px;
+    width: 150px;
+    opacity: 0.6;
+    background-position: center;
+    background-size: cover;
+}
+.text {
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    background: #bdbaba;
+    margin: 3px;
+    width: 94%;
+    text-align: center;
+}
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.bar img {
+    height: 40px;
+    width: 50px;
+}
+
+.landBtn {
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #abaaaa;
+    font-weight: bold;
+}
+
+.landBtn:hover {
+    background-color: grey;
+}
+
+.resources {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.house1 {
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    background: #676565;
+    margin: 3px;
+    width: 94%;
+}
+
+.house2 {
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    background: saddlebrown;
+    margin: 3px;
+    width: 94%;
+}
+
+.house3 {
+    font-size: 12px;
+    width: 94%;
+    font-weight: bold;
+    border: none;
+    background: #ded8d9;
+    margin: 3px;
+    text-align: center;
+}
+/*Flex*/
+
+.d-flex {
+    display: flex;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}

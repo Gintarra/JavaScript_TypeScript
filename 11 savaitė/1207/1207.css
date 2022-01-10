@@ -1,0 +1,107 @@
+body {
+    background-color: green;
+}
+
+.box {
+    height: 600px;
+    padding: 10px;
+    width: 60%;
+}
+
+.playerBox {
+    height: 200px;
+}
+
+.dealerBox {
+    height: 200px;
+}
+
+.border {
+    background: radial-gradient(circle, rgba(56, 57, 57, 0.6575744831009416) 0%, rgba(55, 52, 53, 1) 43%);
+    height: 50px;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 0 #545454;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    visibility: hidden;
+}
+
+.pScoreBox {
+    margin-right: 20px;
+}
+
+.dScoreBox {
+    margin-right: 20px;
+}
+
+/*Flex*/
+.grow1 {
+    flex: 1;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-s-end {
+    align-self: end;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+
+.align-s-center {
+    align-self: center;
+}
+
+.space-ev {
+    justify-content: space-evenly;
+}
+
+/*others*/
+button {
+    width: 120px;
+    height: 50px;
+    box-shadow: 5px 5px 15px 0 #545454;
+    border-radius: 20px;
+    font-weight: bold;
+    background: rgba(190, 192, 192, 0.65);
+    border: none;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: rgba(61, 63, 63, 0.9);
+}
+
+img {
+    height: 150px;
+    width: 108px;
+
+}
+
+#reverse{
+    display: none;
+}
+#start {
+    margin-top: 150px;
+}

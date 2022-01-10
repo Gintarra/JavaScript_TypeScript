@@ -1,0 +1,55 @@
+.shop {
+
+}
+
+.shop1 {
+    width: 400px;
+    height: 400px;
+    border: solid 2px black;
+}
+
+.inventory {
+    width: 400px;
+    height: 400px;
+    border: solid 2px black;
+}
+.title {
+    width: 800px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.end {
+    align-self: end;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.spc_ev {
+    justify-content: space-evenly;
+}
+
+button {
+    align-self: center;
+}
+
+.changeColor {
+    background-color: deepskyblue;
+}
+
+.changeColor:hover {
+    transform: scale(1.2);
+}
+

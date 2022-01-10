@@ -1,0 +1,66 @@
+.box {
+    width: 300px;
+}
+.border {
+    border: solid 2px grey;
+    border-radius: 10px;
+}
+
+.border:hover{
+    background-color: grey;
+    transform: scale(1.05);
+}
+
+
+.d-flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.margin {
+    margin: 5px;
+}
+
+.pad {
+    padding: 5px;
+}
+.onePost {
+    border: 2px green solid;
+    width: 400px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button {
+    margin-top: 10px;
+    width: 414px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: #6b6a6a;
+}
+
+.com {
+    width: 400px;
+    padding: 5px;
+}
+
+.comStyle {
+    border: 2px green solid;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}

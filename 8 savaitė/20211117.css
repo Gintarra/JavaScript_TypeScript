@@ -1,0 +1,57 @@
+.box {
+    height: 400px;
+    width: 300px;
+    border: solid black 2px;
+    padding: 20px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-self {
+    align-self: center;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+
+.margin-b {
+    margin-bottom: 20px;
+}
+.margin {
+    margin: 10px;
+}
+
+.cards {
+    height: 300px;
+    width: 300px;
+    border: solid black 2px;
+    padding: 20px;
+}
+
+.size {
+    height: 50px;
+    width: 50px;
+}
+
+h4 {
+    margin: 3px 3px 3px 3px;
+}
+
+.deleteBtn {
+    margin-top: 10px;
+}
+

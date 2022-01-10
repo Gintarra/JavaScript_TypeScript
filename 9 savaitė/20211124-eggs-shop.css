@@ -1,0 +1,132 @@
+#box {
+    background-color: #d56b6b;
+    width: 100px;
+    border-radius: 10px;
+}
+
+#boxInv {
+    width: 300px;
+    border: solid 1px black;
+    min-height: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.inventoryIn {
+    flex-wrap: wrap;
+}
+
+.shop {
+    width: 140px;
+}
+
+.innerBox {
+    width: 140px;
+    height: 280px;
+    display: none;
+}
+
+#myBar {
+    height: 24px;
+    width: 0;
+    background-color: green;
+}
+
+.sellBtn {
+    font-weight: bold;
+    border: solid #bbb9b9 2px;
+    background-color: #bbb9b9;
+    border-radius: 10px;
+}
+
+
+i {
+    color: rgb(234, 223, 223);
+}
+
+.eggBtn {
+    width: 120px;
+    font-weight: bold;
+    border: solid #bbb9b9 2px;
+    background-color: #bbb9b9;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h4 {
+    margin: 0;
+}
+
+/*Flex*/
+.d-flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.space-ev {
+    justify-content: space-evenly;
+}
+
+/*Paddings, margins*/
+.padding {
+    padding: 10px;
+}
+
+.margin {
+    margin: 10px;
+}
+
+.margin-small {
+    margin: 3px;
+}
+
+/*Alignments*/
+.justify-center {
+    justify-content: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/*Others*/
+.male {
+    color: grey;
+}
+
+.female {
+    color: yellow;
+}
+
+/*animation*/
+.animeEgg {
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-name: anime;
+}
+
+@keyframes anime {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(25deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-25deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

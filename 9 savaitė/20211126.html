@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="20211126.css">
+    <script src="20211126.js" defer></script>
+</head>
+<body>
+<div class="d-flex space-ev">
+
+    <div class="d-flex column align-center grow2">
+        <h3>Card generator</h3>
+        <div class="box pad-15">
+            <h4>Size:</h4>
+            <label for="height">Height:</label>
+            <input type="number" placeholder="150" id="height">
+            <label for="width">Width:</label>
+            <input type="number" placeholder="150" id="width">
+            <h4>Background color:</h4>
+            <div class="d-flex space-ev">
+                <div class="colorBox" id="red"></div>
+                <div class="colorBox" id="green"></div>
+                <div class="colorBox" id="deepskyblue"></div>
+                <div class="colorBox" id="yellow"></div>
+            </div>
+            <h4>Border:</h4>
+            <input type="text" placeholder="5px" id="border-width">
+            <select name="borders" id="border-style">
+                <option value="none">None</option>
+                <option value="dotted">Dotted</option>
+                <option value="dashed">Dashed</option>
+                <option value="solid">Solid</option>
+                <option value="double">Double</option>
+            </select>
+            <input type="text" placeholder="black" id="border-color">
+            <div class="d-flex align-center">
+                <h4>Border radius:</h4>
+                <input class="margin-l-15" type="number" placeholder="20" id="border-radius">
+                <span>px</span>
+            </div>
+            <div class="d-flex align-center">
+                <h4>Padding:</h4>
+                <input class="margin-l-15" type="number" placeholder="20" id="padding">
+                <span>px</span>
+            </div>
+            <div class="d-flex align-center">
+                <h4>Margin:</h4>
+                <input class="margin-l-15" type="number" placeholder="20" id="margin">
+                <span>px</span>
+            </div>
+            <button class="margin-15 text-center" id="generateBtn">GENERATE CARD</button>
+        </div>
+    </div>
+
+    <div class="d-flex column align-center grow1">
+        <h3>Content generator</h3>
+        <div class="box1 pad-15 space-btw d-flex column">
+            <div>
+                <h4>Category:</h4>
+                <input type="text" placeholder="Category text" id="cat-text">
+            </div>
+            <div>
+                <h4>Sub-category:</h4>
+                <input type="text" placeholder="Sub category text" id="sub-cat-text">
+            </div>
+            <div id="errorMessage"></div>
+            <button class="margin-15 text-center" id="contentBtn">ADD CONTENT CARD</button>
+        </div>
+    </div>
+
+    <div class="d-flex column align-center grow2">
+        <h3>Card preview </h3>
+        <button id="appendCard" class="margin-b-10">APPEND CARD</button>
+        <div class="d-flex column" id="previewArea">
+        </div>
+    </div>
+
+</div>
+
+<h3 class="text-center"> All cards</h3>
+<div class="allCards wrap d-flex margin-t-30 align-center">
+
+</div>
+
+</body>
+</html>

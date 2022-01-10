@@ -1,0 +1,71 @@
+.d-flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+input {
+    width: 300px;
+}
+
+button {
+    margin-top: 10px;
+    width: 200px;
+
+}
+
+.align-center {
+    align-self: center;
+}
+
+.align-center2 {
+    align-items: center;
+}
+
+.container {
+    width: 310px;
+    display: none;
+}
+
+.card {
+    border: solid black 1px;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+p,h4, h6 {
+    pointer-events: none;
+}
+
+.margin {
+    margin: 5px;
+}
+
+.boxNewPost {
+    border: solid black 1px;
+    padding: 10px;
+}
+
+.loginBox {
+    display: none;
+}
+
+
+.card  {
+    padding: 10px;
+}
+
+.updateBtn, .deleteBtn {
+    width: 150px;
+    font-weight: bold;
+}
+
+.updateBtn:hover, .deleteBtn:hover {
+    background-color: #b6b3b3;
+}
+
+.justify-ev {
+    justify-content: space-evenly;
+}

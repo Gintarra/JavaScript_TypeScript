@@ -1,0 +1,170 @@
+body {
+    font-family: "Calisto MT", serif;
+}
+
+/*Flex*/
+.d-flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-self {
+    align-self: center;
+}
+
+.space-ev {
+    justify-content: space-evenly;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+
+.grow1 {
+    flex: 1;
+}
+
+.grow2 {
+    flex: 2;
+}
+
+/**/
+.box {
+    width: 400px;
+    height: 420px;
+    border: solid black 2px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.81);
+}
+
+.box1 {
+    width: 300px;
+    height: 420px;
+    border: solid black 2px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.81);
+}
+
+input {
+    width: 100px;
+}
+
+.colorBox {
+    width: 80px;
+    height: 20px;
+}
+
+.colorBox:hover {
+    transform: scale(1.3);
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#deepskyblue {
+    background-color: deepskyblue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#cat-text, #sub-cat-text {
+    width: 100%;
+}
+
+#errorMessage {
+    font-weight: bold;
+    color: red;
+}
+
+.size {
+    width: 80%;
+    height: 80%;
+}
+
+.border {
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+button {
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 90%;
+    text-align: center;
+    background-color: #a3e5e5;
+    border-radius: 10px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: #368d8d;
+}
+
+#appendCard {
+    width: 60%;
+}
+
+.selected {
+    transform: scale(1.2);
+    border: black 2px solid;
+}
+
+/*Paddings, margins*/
+.pad-15 {
+    padding: 15px;
+}
+
+.margin-l-15 {
+    margin-left: 15px;
+}
+
+.margin-b-10 {
+    margin-bottom: 10px;
+}
+
+.margin-t-30 {
+    margin-top: 30px;
+}
+
+.margin-15 {
+    margin: 15px;
+}
+
+.margin-5 {
+    margin: 5px;
+}
+
+h4 {
+    margin: 15px 0;
+}
+
+/*Alignments*/
+.text-center {
+    text-align: center;
+}
